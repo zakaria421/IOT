@@ -13,7 +13,7 @@ curl -sfL https://get.k3s.io | sh -s - server \
   --write-kubeconfig-mode=644 \
   --disable metrics-server
 
-  until kubectl get nodes >/dev/null 2>&1; do
+until kubectl get nodes >/dev/null 2>&1; do
   sleep 2
 done
 
