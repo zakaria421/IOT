@@ -1,6 +1,6 @@
 # IOT
 
-Infrastructure and DevOps exercises built with **Vagrant**, **K3s**, **Kubernetes**, **K3d**, **Argo CD**, and **GitLab**.
+This project is a practical introduction to modern infrastructure and DevOps workflows. It progresses from provisioning virtual machines and building a multi-node **K3s** cluster to deploying containerized applications on **Kubernetes**, exposing them through Ingress, and managing deployments with **Argo CD** GitOps automation. The bonus implementation extends the workflow with a local **GitLab** instance as the source repository for continuous application synchronization.
 
 ## Project layout
 
